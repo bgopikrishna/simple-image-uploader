@@ -4,6 +4,9 @@ import './ImageViewer.scss';
 import ImagesList from '../ImagesList/ImagesList';
 import useCopy from '../../hooks/useCopy';
 
+/**
+ * Component which renders Cropped image results
+ */
 const ImageViewer = () => {
     const { id: imageId } = useParams();
     const inputRef = useRef();

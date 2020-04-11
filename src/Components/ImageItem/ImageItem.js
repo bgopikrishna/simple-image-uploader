@@ -1,6 +1,9 @@
 import React from 'react';
 import { Image } from 'cloudinary-react';
 
+/**
+ * Component which renders single image in ImageViewer
+ */
 const ImageItem = ({ imageId, details }) => {
     const { name, width, height } = details;
 

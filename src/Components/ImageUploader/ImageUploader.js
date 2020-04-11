@@ -5,6 +5,9 @@ import { useRef } from 'react';
 import { useHistory } from 'react-router-dom';
 import './ImageUploader.scss';
 
+/**
+ * Component which is rendered in Image Upload Page, Handles image upload.
+ */
 const ImageUploader = () => {
     const [uploadedImage, setUploadedImage] = useState(null);
     const [file, setFile] = useState(null);
