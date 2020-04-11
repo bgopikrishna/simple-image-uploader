@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We came across your profile on Angelist for the role of Frontend Developer. We are glad to let you know that your profile has been shortlisted. As a part of the interview process, we have an assignment we would like to share with you. It's meant to gauge practical design thinking, code quality, structure, and so on.
 
-## Available Scripts
+Please create a simple app that includes the following:
 
-In the project directory, you can run:
+1.  A web page where the user can upload an image
 
-### `yarn start`
+2.  Each image has to be exactly 1024 x 1024.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3.  Don’t upload the file if it’s not the right size
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+4.  Each image has to be converted into four different sizes.
 
-### `yarn test`
+horizontal : 755 x 450
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+vertical : 365 x 450
 
-### `yarn build`
+horizontal small : 365 x 212
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+gallery : 380 x 380
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Images should not be stretched, they should be cropped.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5.  Save all four of these images locally on the server
 
-### `yarn eject`
+6.  Show a webpage with all four of these new images.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Framework to use - React JS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bonus: Instead of saving these files to the server, upload them to a cloud image hosting service.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Double Bonus: While uploading the image show a preview in the browser itself of all the different image sizes, and let the user decide how to crop the images to the smaller size.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you have any doubts, feel free to ask. The style/design of the page is not very important, but application structure decisions are.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Please submit this assignment by 17th April, 2020. You can put this in a GitHub repo or just send us a zip file if you would prefer it not be public.

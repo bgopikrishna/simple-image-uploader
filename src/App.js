@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ImageUploader from './Components/ImageUploader/ImageUploader';
+import { Switch, Route, Link } from 'react-router-dom';
+import ImageViewer from './Components/ImageViewer/ImageViewer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='header'>
+        <h1 className='text-align-center'>
+          <Link to='/'>Hera Images</Link>
+        </h1>
+      </div>
+      <main>
+        <Switch>
+          <Route exact path='/' component={ImageUploader} />
+          <Route path='/image/:id' component={ImageViewer} />
+        </Switch>
+      </main>
     </div>
   );
 }

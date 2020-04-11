@@ -1,0 +1,15 @@
+/* Colors */
+
+$red: #ff6347;
+$blue: #4440db;
+$white: #fff;
+
+//Gradients
+
+$blue-gradient: linear-gradient(
+    180deg,
+    rgba(16, 25, 37, 1) 0%,
+    rgba(9, 9, 121, 1) 55%,
+    rgba(16, 85, 185, 1) 100%
+);
+$blue-gradient-fallback: rgb(16, 25, 37);

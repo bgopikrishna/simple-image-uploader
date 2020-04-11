@@ -1,0 +1,31 @@
+.upload--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 400px;
+  margin: 3rem auto;
+  min-height: 300px;
+  align-items: stretch;
+
+  &--input-container {
+    position: relative;
+  }
+
+  &--reset {
+    position: absolute;
+    right: 1rem;
+    color: tomato;
+    z-index: 4;
+    padding: 0.5rem;
+    font-size: 2rem;
+    top: 1.2rem;
+    background: transparent;
+  }
+
+  &--preview {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 1rem auto;
+  }
+}

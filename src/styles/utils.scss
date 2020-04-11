@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+.err-msg {
+    color: $red;
+    padding: 0.2rem 1rem;
+    font-size: 0.75rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.hidden-input {
+    position: absolute;
+    left: -9999px;
+}
